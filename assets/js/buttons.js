@@ -10,8 +10,13 @@ const generateFirstButtonsContainer = () => {
           href="${button.link}"
           target="${CONFIG.openInNewTab ? '_blank' : ''}"
           class="card button button__${button.id}"
+		  style="text-decoration: inherit;"
         >
           <i class="buttonIcon" icon-name="${button.icon}"></i>
+		  <p
+		  	class="buttonIcon"
+			style="width: auto; height: auto;"
+		>&nbsp; ${button.name}</p>
         </a>
     `;
 

@@ -23,7 +23,7 @@ const CONFIG = {
 	greetingNight: 'Good night!',
 
 	// Layout
-	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
+	bentoLayout: 'buttons', // 'bento', 'lists', 'buttons'
 
 	// Weather
 	weatherKey: '8ceee82566b7ed17ec982468e4c36d6b', // Write here your API Key
@@ -71,6 +71,7 @@ const CONFIG = {
 		}			
 	],
 
+	/*
 	secondButtonsContainer: [
 		{
 			id: '1',
@@ -115,7 +116,6 @@ const CONFIG = {
 	// ┴─┘┴└─┘ ┴ └─┘
 
 	// First Links Container
-	 /*
 	firstlistsContainer: [
 		{
 			icon: 'music',
