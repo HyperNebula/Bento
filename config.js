@@ -62,7 +62,13 @@ const CONFIG = {
 			name: 'Epub Reader',
 			icon: 'book',
 			link: 'https://epub.veskos.com',
-		}
+		},
+		{
+			id: '3',
+			name: 'Cookie Bot',
+			icon: 'cookie',
+			link: 'https://cookie.veskos.com',
+		}			
 	],
 
 	secondButtonsContainer: [
